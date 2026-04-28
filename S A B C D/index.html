@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S-D Tier Rater</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Tier List Maker</h1>
+
+    <div class="controls">
+        <input type="file" id="imageLoader" accept="image/png" multiple>
+        <label for="imageLoader" class="btn">Import PNGs</label>
+    </div>
+
+    <div class="tier-container">
+        <div class="tier-row" id="s-tier">
+            <div class="label s">S</div>
+            <div class="drop-zone"></div>
+        </div>
+        <div class="tier-row" id="a-tier">
+            <div class="label a">A</div>
+            <div class="drop-zone"></div>
+        </div>
+        <div class="tier-row" id="b-tier">
+            <div class="label b">B</div>
+            <div class="drop-zone"></div>
+        </div>
+        <div class="tier-row" id="c-tier">
+            <div class="label c">C</div>
+            <div class="drop-zone"></div>
+        </div>
+        <div class="tier-row" id="d-tier">
+            <div class="label d">D</div>
+            <div class="drop-zone"></div>
+        </div>
+    </div>
+
+    <h3>Image Pool</h3>
+    <div class="image-pool" id="pool">
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
